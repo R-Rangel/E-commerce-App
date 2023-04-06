@@ -1,6 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-
+const Category = require ('../models/Category');
 class Product extends Model {}
 
 Product.init(
@@ -48,8 +48,6 @@ Product.init(
 );
 
 // Define association to Category
-Product.belongsTo(Category, {
-  foreignKey: 'category_id'
-});
+
 
 module.exports = Product;

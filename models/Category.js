@@ -1,5 +1,6 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
+const Product = require('../models/Product');
 
 class Category extends Model {}
 
@@ -25,9 +26,5 @@ Category.init(
   }
 );
 
-// Define association to Product
-Category.hasMany(Product, {
-  foreignKey: 'category_id'
-});
 
 module.exports = Category;
