@@ -22,4 +22,4 @@ Here are the endpoints currently available in the API:
 
 ## Demo
 
-(https://user-images.githubusercontent.com/122307878/230309149-94c625b0-8800-4599-b4d0-6ffeb5f5a1ae.webm)
+[Untitled_ Apr 6, 2023 2_39 AM.webm](https://user-images.githubusercontent.com/122307878/230309149-94c625b0-8800-4599-b4d0-6ffeb5f5a1ae.webm)
